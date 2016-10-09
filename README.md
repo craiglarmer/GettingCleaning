@@ -1,6 +1,8 @@
 ==================================================================
 Getting and Cleaning Data Coursera project 
+==================================================================
 Version 1.0
+
 ==================================================================
 Craig Larmer, @craiglarmer 
 ==================================================================
@@ -17,14 +19,10 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The repo contains the following files
 ==================================================================
 - 'README.md': this explanation
-
 - 'CodeBook.md': an explanation of how the data was collected and description of the datasets
-
 - 'run_analysis.R': The R script that generates the tidy_data.csv and tidy_summary.csv files
-
 - 'tidy_data.txt': The data set tidied and cleaned
-
-- 'tify_summary.txt': A summarised version of the tidy_data.csv dataset. 
+- 'tidy_summary.txt': A summarised version of the tidy_data.csv dataset. 
 
 ==================================================================
 Instructions for use:
