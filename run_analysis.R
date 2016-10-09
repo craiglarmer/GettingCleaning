@@ -42,9 +42,9 @@ tidy_data_df<-tbl_df(tidy_data)
 tidy_summary<- tidy_data_df %>% group_by(subject,activity_label) %>% summarise_each(funs(mean))
 
 #record the results
-if(file.exists("tidy_data.csv")) {file.remove("tidy_data.csv")}
-write.csv(tidy_data,"tidy_data.csv",row.names=FALSE)
+if(file.exists("tidy_data.txt")) {file.remove("tidy_data.txt")}
+write.table(tidy_data,"tidy_data.txt",row.names=FALSE)
 
-if(file.exists("tidy_summary.csv")) {file.remove("tidy_summary.csv")}
-write.csv(tidy_summary,"tidy_summary.csv",row.names=FALSE)
+if(file.exists("tidy_summary.txt")) {file.remove("tidy_summary.txt")}
+write.table(tidy_summary,"tidy_summary.txt",row.names=FALSE)
 

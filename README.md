@@ -22,9 +22,9 @@ The repo contains the following files
 
 - 'run_analysis.R': The R script that generates the tidy_data.csv and tidy_summary.csv files
 
-- 'tidy_data.csv': The data set tidied and cleaned
+- 'tidy_data.txt': The data set tidied and cleaned
 
-- 'tify_summary.csv': A summarised version of the tidy_data.csv dataset. 
+- 'tify_summary.txt': A summarised version of the tidy_data.csv dataset. 
 
 ==================================================================
 Instructions for use:

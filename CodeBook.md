@@ -25,17 +25,17 @@ For each record it is provided:
 
 File Structure
 =================
-Tidy_data.csv
+Tidy_data.txt
     subject: The reference to the subject
     activity_index: id of the activity
     activity_label: label of the activity
     <features>: see below for description of features
 
-Tidy_summary.csv
+Tidy_summary.txt
     subject: The reference to the subject
     activity_label: label of the activity
     <feature_means>: mean for each feature by subject and activity_label. See below for description of features
-    
+
 Feature Selection 
 =================
 
