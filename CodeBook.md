@@ -31,12 +31,12 @@ Tidy_data.txt
 - subject: The reference to the subject
 - activity_index: id of the activity
 - activity_label: label of the activity
-- <features>: see below for description of features
+- ..features..: see below for description of features
 
 Tidy_summary.txt
 - subject: The reference to the subject
 - activity_label: label of the activity
-- <feature_means>: mean for each feature by subject and activity_label. See below for description of features
+- ..feature_means..: mean for each feature by subject and activity_label. See below for description of features
 
 Feature Selection 
 =================
